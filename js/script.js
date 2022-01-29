@@ -79,19 +79,3 @@ function createCats(cats) {
 }
 
 catContainer.innerHTML = createCats(cats);
-
-// const catContainer = document.querySelector(".cat-container");
-// let catAge = "Age unknown";
-
-// if (!cats.age) {
-//   cat.age = catAge;
-// }
-
-// function createCats(cats) {
-//   cats.forEach((cat) => {
-//     catContainer.innerHTML += `<div><h5>${cat.name}</h5>
-//                               <p>${cat.age}</p></div>`;
-//   });
-// }
-
-// createCats(cats);
